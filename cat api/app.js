@@ -23,8 +23,9 @@ try {
     const json = await response.json()
     console.log('JSON:', json);
     return randomCatsPhotos(json)
-} catch {
-
+} catch (e) {
+    console.log('this is an error')
+    console.log(e)
 
 }
 
