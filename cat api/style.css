@@ -1,0 +1,38 @@
+body 
+{
+    background: rgb(45, 45, 45)
+}
+
+.header-content 
+{
+    text-align: center;
+}
+
+.btn
+{
+    background: transparent;
+    border: none;
+    background-color: rgb(6969, 69, 69);
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cats
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.random_cats 
+{
+    width: 40%;
+}
+
+img
+{
+    max-width: 700px;
+    height: 30rem;
+}
