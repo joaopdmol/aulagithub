@@ -11,7 +11,7 @@ randomCatsPhotos = json => {
     let image = document.createElement('img')
     image.src = photo;
     image.classList.add('random_cats')
-    image.alt = phoyo
+    image.alt = photo
     section.appendChild(image);
 };
 
